@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
 
 :root {
-  --paper:#F6F3EC;
-  --ink:#252923;
-  --muted:#686d66;
-  --line:#D9D3C7;
-  --accent:#8A503C;
+  --paper: #F7F5F0;
+  --ink: #182B49;
+  --muted: #66788C;
+  --line: #D5DEE8;
+  --accent: #426B91;
 }
 
 * {
