@@ -1,0 +1,27 @@
+/* Photography-only layout. The rest of the website still uses style.css. */
+.gallery-section { padding-top: 0; padding-bottom: 85px; }
+.editorial-gallery { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; row-gap: 55px; align-items: start; }
+.photo { margin: 0; min-width: 0; }
+.photo img { display: block; width: 100%; height: auto; border-radius: 2px; }
+.photo figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 12px; border-top: 1px solid var(--line); margin-top: 14px; font-size: 13px; line-height: 1.5; }
+.photo figcaption span { color: var(--accent); white-space: nowrap; }
+.photo figcaption strong { color: var(--ink); font-weight: 500; text-align: right; }
+.photo--dubrovnik { grid-column: 1 / 8; }
+.photo--santorini { grid-column: 9 / 13; padding-top: 100px; }
+.photo--food { grid-column: 2 / 7; }
+.photo--night { grid-column: 8 / 13; padding-top: 75px; }
+.photo--car { grid-column: 3 / 11; max-width: 650px; justify-self: center; }
+@media (max-width: 750px) {
+  .editorial-gallery { grid-template-columns: repeat(2, minmax(0,1fr)); column-gap: 14px; row-gap: 36px; }
+  .photo--dubrovnik, .photo--santorini, .photo--food, .photo--night, .photo--car { grid-column: auto; padding-top: 0; max-width: none; }
+  .photo--dubrovnik { grid-column: 1 / -1; }
+  .photo--car { grid-column: 1 / -1; width: 75%; }
+  .photo figcaption { flex-direction: column; gap: 2px; font-size: 12px; }
+  .photo figcaption strong { text-align: left; }
+}
+@media (max-width: 460px) {
+  .editorial-gallery { display: block; }
+  .photo { margin-bottom: 38px; }
+  .photo--car { width: 100%; }
+  .gallery-section { padding-bottom: 45px; }
+}
