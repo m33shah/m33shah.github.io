@@ -276,3 +276,6 @@ section {
   }
 
 }
+
+/* Projects */
+.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding-bottom:80px}.project-card{border:1px solid #ddd;padding:28px;border-radius:8px}.project-card h2{font-size:26px;margin:14px 0}.project-card p{line-height:1.7}.project-note{font-size:13px;opacity:.7}@media(max-width:800px){.project-grid{grid-template-columns:1fr}}

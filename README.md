@@ -1,17 +1,9 @@
-# Michael Shah personal website
+# Michael Shah website - corrected package
 
-A free, static multi-page website designed for GitHub Pages.
+This version contains 22 photographs (17 from the original photography portfolio plus the 5 later gallery selections), 9 articles, and project descriptions for Advisory Desk, ClearFile AI, and STAGE.
 
-## Publish on GitHub Pages
-1. Create a public GitHub repository named `YOURUSERNAME.github.io` (replace YOURUSERNAME with your GitHub username).
-2. Upload the HTML files and `style.css` from this folder to the root of the repository.
-3. In the repository, open Settings → Pages. Under Build and deployment, choose Deploy from a branch, branch `main`, folder `/ (root)`, then Save.
-4. Visit `https://YOURUSERNAME.github.io/` after deployment finishes.
+Upload the CONTENTS of this folder to the root of the GitHub Pages repository, preserving directories. Existing files with the same paths should be replaced. No live demos or screenshots of the AI projects are included; this is a descriptive projects page.
 
-## Customize
-- Edit page text directly in each HTML file.
-- Edit colors, fonts, and spacing in `style.css`.
-- Replace the contact placeholders with your actual details.
-- Add real images to the photography page when ready.
 
-No monthly hosting fee or paid domain required. Google Fonts are loaded over the internet; fallback fonts are included.
+## Article cover image correction
+All nine article cover images are cropped from the supplied LinkedIn screenshots to remove profile, reactions, and interface elements. They are not newly sourced internet images. Original screenshot resolution limits quality; replace with licensed high-resolution source images when available.

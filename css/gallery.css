@@ -1,27 +1,2 @@
-/* Photography-only layout. The rest of the website still uses style.css. */
-.gallery-section { padding-top: 0; padding-bottom: 85px; }
-.editorial-gallery { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; row-gap: 55px; align-items: start; }
-.photo { margin: 0; min-width: 0; }
-.photo img { display: block; width: 100%; height: auto; border-radius: 2px; }
-.photo figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 12px; border-top: 1px solid var(--line); margin-top: 14px; font-size: 13px; line-height: 1.5; }
-.photo figcaption span { color: var(--accent); white-space: nowrap; }
-.photo figcaption strong { color: var(--ink); font-weight: 500; text-align: right; }
-.photo--dubrovnik { grid-column: 1 / 8; }
-.photo--santorini { grid-column: 9 / 13; padding-top: 100px; }
-.photo--food { grid-column: 2 / 7; }
-.photo--night { grid-column: 8 / 13; padding-top: 75px; }
-.photo--car { grid-column: 3 / 11; max-width: 650px; justify-self: center; }
-@media (max-width: 750px) {
-  .editorial-gallery { grid-template-columns: repeat(2, minmax(0,1fr)); column-gap: 14px; row-gap: 36px; }
-  .photo--dubrovnik, .photo--santorini, .photo--food, .photo--night, .photo--car { grid-column: auto; padding-top: 0; max-width: none; }
-  .photo--dubrovnik { grid-column: 1 / -1; }
-  .photo--car { grid-column: 1 / -1; width: 75%; }
-  .photo figcaption { flex-direction: column; gap: 2px; font-size: 12px; }
-  .photo figcaption strong { text-align: left; }
-}
-@media (max-width: 460px) {
-  .editorial-gallery { display: block; }
-  .photo { margin-bottom: 38px; }
-  .photo--car { width: 100%; }
-  .gallery-section { padding-bottom: 45px; }
-}
+/* Responsive photography grid */
+.gallery-section{padding-bottom:80px}.gallery-intro{display:flex;justify-content:space-between;gap:16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#777);padding-bottom:22px;border-bottom:1px solid #ddd;margin-bottom:26px}.photo-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.gallery-item{margin:0;min-width:0}.gallery-item a{display:block;overflow:hidden;background:#eee}.gallery-item img{display:block;width:100%;height:290px;object-fit:cover;transition:transform .25s}.gallery-item a:hover img{transform:scale(1.025)}.gallery-item figcaption{padding:10px 0 18px;font-size:13px;color:var(--muted,#666)}@media(max-width:760px){.photo-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.gallery-item img{height:210px}}@media(max-width:480px){.photo-gallery{grid-template-columns:1fr}.gallery-item img{height:auto;max-height:460px;object-fit:contain}}
