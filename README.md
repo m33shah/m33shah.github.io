@@ -11,3 +11,11 @@ Upload the CONTENTS of this folder to the root of the GitHub Pages repository, p
 - The nine blurry LinkedIn-derived covers were replaced by original high-resolution editorial typographic artwork, NOT photographs. Licensed high-resolution photography can be substituted later.
 
 ARTICLE COVERS: Nine original user-supplied images replace all prior illustration covers. Images remain uncropped on disk; CSS controls display framing.
+
+
+## Photography update
+Photography is organized into Food, Cars, Captures and Travel, with 19 distinct photographs. Three repeated images were removed from the package. About and Home pages reflect a completed MBA and the About page mentions fitness and sports.
+
+Final photography update: Food & Drinks, Cars, Captures, Travel. Amatriciana pasta and poached pear photos excluded.
+
+Balanced gallery: 13 Food & Drinks, 12 Cars, 13 Captures, 12 Travel (50 photographs total). Other photography assets removed to reduce upload count.
