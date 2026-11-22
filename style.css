@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
 
 :root {
-  --paper: #F7F5F0;
-  --ink: #182B49;
-  --muted: #66788C;
-  --line: #D5DEE8;
-  --accent: #426B91;
+  --paper:#F7F5F0;
+  --ink:#182B49;
+  --muted:#66788C;
+  --line:#D5DEE8;
+  --accent:#426B91;
 }
 
 * {
@@ -164,7 +164,7 @@ section {
 }
 
 .tile:hover {
-  background:#EDE6DB;
+  background:#E9EEF3;
 }
 
 .tile p {
@@ -214,7 +214,7 @@ section {
 }
 
 .placeholder {
-  background:#EDE6DB;
+  background:#E9EEF3;
   border:1px solid var(--line);
   min-height:230px;
   display:flex;
@@ -276,3 +276,13 @@ section {
   }
 
 }
+
+/* Projects */
+.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding-bottom:80px}.project-card{border:1px solid #ddd;padding:28px;border-radius:8px}.project-card h2{font-size:26px;margin:14px 0}.project-card p{line-height:1.7}.project-note{font-size:13px;opacity:.7}@media(max-width:800px){.project-grid{grid-template-columns:1fr}}
+
+/* Project preview media */
+.project-card{overflow:hidden}.project-image{display:flex;align-items:center;justify-content:center;height:280px;overflow:hidden;background:#e8e8e8;margin-bottom:22px;border-radius:8px}.project-image img{width:100%;height:100%;object-fit:contain;object-position:center;background:#f5f5f5}.project-image-missing{background:#1b1722;color:#f4e5ef;flex-direction:column;gap:8px}.project-image-missing span{font-size:42px;font-weight:700;letter-spacing:.12em}.project-image-missing small{font-size:12px;opacity:.7;text-align:center;padding:0 18px}
+
+/* Four projects in one row on desktop */
+@media (min-width: 1100px){.project-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.project-card{padding:16px}.project-card h2{font-size:22px}.project-image{height:235px}}
+@media (min-width: 700px) and (max-width:1099px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
